@@ -105,11 +105,11 @@
 // })
 
 
-// const test = (a, b = 3, c = 5) =>{
-//     return a+b+c
-// }
+const test = (a, b = 3, c = 5) =>{
+    return a+b+c
+}
 
-// console.log(test(4,b,15))
+console.log(test(4, 15))
 
 
 // // let car = {
@@ -232,16 +232,16 @@
 // }
 
 
-function testy(arr, ...nums){
-    for (let num of nums){
-        if (arr.indexOf(num) === -1){
-            return false;
-        }
-    }
-    return true
-}
-let x = [1,2,3,4,5,6]
-console.log(testy(x, 2,3,9));
+// function testy(arr, ...nums){
+//     for (let num of nums){
+//         if (arr.indexOf(num) === -1){
+//             return false;
+//         }
+//     }
+//     return true
+// }
+// let x = [1,2,3,4,5,6]
+// console.log(testy(x, 2,3,9));
 
 
 // function my_func(x,y,z,w) {
@@ -251,10 +251,10 @@ console.log(testy(x, 2,3,9));
 
 // my_func.apply(null,args.concat(4))
 
-const my_func = (w,x,y,z) => {
-    console.log(w + x + y + z);
-}
+// const my_func = (w,x,y,z) => {
+//     console.log(w + x + y + z);
+// }
 
-let args = [1,2,3]
-my_func(...args,4)
+// let args = [1,2,3]
+// my_func(...args,4)
 
