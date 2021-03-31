@@ -51,3 +51,6 @@ var b = 10;
 var c = a + b;
 
 console.log(a + " + " + b +  " = " + c );
+
+
+console.log("this is insert for test");
